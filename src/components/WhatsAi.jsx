@@ -5,7 +5,7 @@ const WhatsAi = () => {
   return (
     <div className="pt-[60px] md:pb-[50px] md:mt-[60px]">
       <div className=" container mx-auto max-w-[1246px] px-3 nter">
-        <div className=" whats_bg   bg-no-repeat bg-center  rounded-[24px]">
+        <div className="relative whats_bg opacity-80  bg-no-repeat bg-center  rounded-[24px]">
           <div className="  max-w-[1246px] px-3 border-[1px] border-white rounded-[24px] whats_bg  bg-no-repeat bg-center">
             <div className="flex flex-row  items-center justify-center flex-wrap lg:flex-nowrap min-h-[810px]  -mx-3 xl:px-[95px]">
               <div className=" lg:w-1/2 w-full px-3 ">
@@ -33,11 +33,13 @@ const WhatsAi = () => {
                   <Samebtn text="Learn More" />
                 </span>
               </div>
-              <div className=" lg:w-7/12 w-full px-3">
-                <img className="w-100" src={AI} alt="" />
+              <div className=" lg:w-5/12 w-full px-3">
+                <img className="w-100  mix-blend-color-dodge" src={AI} alt="" />
               </div>
             </div>
           </div>
+          <span className="sm:w-[230px] sm:h-[230px] rounded-[500px]  blur-[100px] bg-[#02cdcf] opacity-60 z-10 left-[0%] absolute bottom-[0%]"></span>
+          <span className="sm:w-[230px] sm:h-[230px] rounded-[500px]  blur-[100px] bg-[#02cdcf] opacity-60 z-10 right-[15%] absolute bottom-[20%]"></span>
         </div>
       </div>
     </div>

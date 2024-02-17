@@ -26,15 +26,6 @@ body {
   background-size: 100% 100% !important;
 }
 
-
-.ellp_2 {
-  width: 228px;
-  height: 228px;
-  border-radius: 416.224px;
-  opacity: 0.3;
-  background: #02cdcf;
-  filter: blur(100px);
-}
 .scroll-hide::-webkit-scrollbar {
   display: none;
 }

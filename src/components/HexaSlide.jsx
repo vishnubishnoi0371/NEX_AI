@@ -263,6 +263,7 @@ const HexaSlide = () => {
         <span className="sm:w-[230px] sm:h-[230px] rounded-[500px]  blur-[100px] bg-[#02cdcf] opacity-60 z-10 left-[-8%] absolute top-[25%]"></span>
         <span className="sm:w-[230px] sm:h-[230px] rounded-[500px]  blur-[100px] bg-[#02cdcf] opacity-60 z-10 right-[0%] absolute top-[28%]"></span>
         <span className="sm:w-[230px] sm:h-[230px] rounded-[500px]  blur-[100px] bg-[#02cdcf] opacity-60 z-10 right-[0%] absolute bottom-[-20%]"></span>
+        <span className="sm:w-[430px] sm:h-[430px] rounded-[500px]  blur-[120px] bg-[#02cdcf] opacity-60 z-10 right-[34%] absolute top-[-54%]"></span>
       </div>
     </div>
   );

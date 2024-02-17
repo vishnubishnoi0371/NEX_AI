@@ -7,7 +7,7 @@ const My_Footer = () => {
       <div className=" container mx-auto max-w-[1164px]  px-3 ">
         <div className="flex md:flex-row lg:min-h-[322px] items-center justify-between flex-wrap  -mx-3 ">
           <div className=" sm:5/12 md:w-1/3   px-3">
-            <p className="text-base font-bold ff-recharge text-[#ffffff] leading-[25.6px] mb-5 md:max-w-[356px]">
+            <p className="text-base font-bold md:mt-[-110px]  ff-recharge text-[#ffffff] leading-[25.6px] mb-5 md:max-w-[356px]">
               Nullam viverra natoque amet et sed scelerisque viverra fringilla
               platea. Ullamcorper.
             </p>

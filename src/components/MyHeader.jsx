@@ -108,11 +108,10 @@ const MyHeader = () => {
           </div>
         </nav>
         <div id="home" className="container max-w-[1194px] px-3">
-          <div className="flex-col flex sm:ps-5 lg:ms-[50px] lg:ps-[100px] ">
-            <p className="max-w-[577px] font-bold text-[40px] sm:text-[60px] mb-2 mt-0 sm:mt-[50px] pt-[50px] sm:leading-[75.6px] ff-recharge text-[#02CDCF]">
-              Nexai{" "}
+          <div className="flex-col flex sm:ps-5 lg:ms-[50px]  lg:ps-[100px] ">
+            <p className="max-w-[577px] font-bold text-[40px] sm:text-[60px] mb-2 mt-5 sm:mt-[50px] pt-[50px] sm:leading-[75.6px] ff-recharge text-[#02CDCF]">
+              Nexai <span></span>
               <span className="font-normal text-[#ffffff] ff-neuo">
-                {" "}
                 is an advanced AI-powered home assistant
               </span>
             </p>
