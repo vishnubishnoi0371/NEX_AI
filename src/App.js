@@ -1,23 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useEffect, useState } from "react";
+import Backtotop from "./components/Backtotop";
+import HexaSlide from "./components/HexaSlide";
+import MyHeader from "./components/MyHeader";
+import My_Footer from "./components/My_Footer";
+import My_Timeline from "./components/My_Timeline";
+import Nexaislide from "./components/Nexaislide";
+import Preload from "./components/Preload";
+import Sec_One from "./components/Sec_One";
+import Taldtoday from "./components/Taldtoday";
+import WhatsAi from "./components/WhatsAi";
 
-function App() {
+  function App() {
+    const [first, setfirst] = useState(true);
+    useEffect(() => {
+      setfirst(true);
+      setTimeout(() => {
+        setfirst(false);
+      }, 3000);
+    }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {first ? (
+        <>
+          <Preload />
+        </>
+      ) : (
+        <div className="App">
+          <MyHeader />
+          <Sec_One />
+          <HexaSlide />
+          <Nexaislide />
+          <WhatsAi />
+          <My_Timeline />
+          <Taldtoday />
+          <My_Footer />
+          <Backtotop />
+          <Preload />
+        </div>
+      )}
     </div>
   );
 }

@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "'Neuropolitical', sans-serif";
+
+  src: url("../src/Myfont/neuropolitical/neuropolitical\ rg.otf");
+}
+@font-face {
+  font-family: "'Recharge', sans-serif";
+  src: url("../src/Myfont/recharge/recharge\ bd.otf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ff-recharge {
+  font-family: "'Recharge', sans-serif";
+}
+.ff-neuo {
+  font-family: "'Recharge', sans-serif";
 }
