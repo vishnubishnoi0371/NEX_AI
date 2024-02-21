@@ -15,10 +15,10 @@ const My_Timeline = () => {
           </div>
           <div className=" md:w-6/12 w-full px-3 max-h-[500px] scroll-hide  overflow-y-scroll">
             <div className="flex gap-[13px] xs:gap-[20px] md:gap-[20px] 910:gap-[55px] xl:gap-[65px]">
-              <hr className="w-[1px] p-[4px] rounded-[10px] sm:ms-2 h-[1300px] xs_1:h-[570px] sm:h-[780px] md:h-[2030px] lg:h-[1670px] xl:h-[1380px] mt-5 bg-[#2dcdcf]" />
+              <hr className="w-[1px] p-[4px] rounded-[10px] sm:ms-2 h-[1380px] xs_1:h-[570px] sm:h-[780px] md:h-[2030px] lg:h-[1670px] xl:h-[1380px] mt-5 bg-[#2dcdcf]" />
               <div>
                 <div className="relative">
-                  <span className="rounded-full bg-white sm:h-[24px] sm:w-[24px] w-[20px] h-[20px] absolute top-[40%] left-[-10%] xxs:left-[-9%] xs_1:left-[-8%] xs_2:left-[-6%] md:left-[-10.5%]  lg:left-[-16.5%] xl:left-[-15%]"></span>
+                  <span className="rounded-full bg-white sm:h-[24px] sm:w-[24px] w-[20px] h-[20px] absolute top-[40%] left-[-11%] xxs:left-[-9%] xs_1:left-[-8%] xs_2:left-[-6%] md:left-[-10.5%]  lg:left-[-16.5%] xl:left-[-15%]"></span>
 
                   <p className="text-base sm:text-[24px] font-bold ff-recharge leading-[31px] text-white mb-2 lg:mb-4">
                     Purchasing Nexai Products
@@ -33,7 +33,7 @@ const My_Timeline = () => {
                   </p>
                 </div>
                 <div className="relative">
-                  <span className="rounded-full bg-white sm:h-[24px] sm:w-[24px] w-[20px] h-[20px] absolute top-[40%] left-[-10%] xxs:left-[-9%] xs_1:left-[-8%] xs_2:left-[-6%] md:left-[-10.5%]  lg:left-[-16.5%] xl:left-[-15%]"></span>
+                  <span className="rounded-full bg-white sm:h-[24px] sm:w-[24px] w-[20px] h-[20px] absolute top-[40%] left-[-11%] xxs:left-[-9%] xs_1:left-[-8%] xs_2:left-[-6%] md:left-[-10.5%]  lg:left-[-16.5%] xl:left-[-15%]"></span>
 
                   <p className="text-base sm:text-[24px] font-bold ff-recharge leading-[31px] text-white mb-2 lg:mb-4">
                     Accessing Exclusive Content{" "}
@@ -47,7 +47,7 @@ const My_Timeline = () => {
                   </p>
                 </div>
                 <div className="relative">
-                  <span className="rounded-full bg-white sm:h-[24px] sm:w-[24px] w-[20px] h-[20px] absolute top-[40%] left-[-10%] xxs:left-[-9%] xs_1:left-[-8%] xs_2:left-[-6%] md:left-[-10.5%]  lg:left-[-16.5%] xl:left-[-15%]"></span>
+                  <span className="rounded-full bg-white sm:h-[24px] sm:w-[24px] w-[20px] h-[20px] absolute top-[40%] left-[-11%] xxs:left-[-9%] xs_1:left-[-8%] xs_2:left-[-6%] md:left-[-10.5%]  lg:left-[-16.5%] xl:left-[-15%]"></span>
 
                   <p className="text-base sm:text-[24px] font-bold ff-recharge leading-[31px] text-white mb-2 lg:mb-4">
                     Loyalty and Rewards{" "}
@@ -64,7 +64,7 @@ const My_Timeline = () => {
                   </p>
                 </div>
                 <div className="relative">
-                  <span className="rounded-full bg-white sm:h-[24px] sm:w-[24px] w-[20px] h-[20px] absolute top-[40%] left-[-10%] xxs:left-[-9%] xs_1:left-[-8%] xs_2:left-[-6%] md:left-[-10.5%]  lg:left-[-16.5%] xl:left-[-15%]"></span>
+                  <span className="rounded-full bg-white sm:h-[24px] sm:w-[24px] w-[20px] h-[20px] absolute top-[40%] left-[-11%] xxs:left-[-9%] xs_1:left-[-8%] xs_2:left-[-6%] md:left-[-10.5%]  lg:left-[-16.5%] xl:left-[-15%]"></span>
 
                   <p className="text-base sm:text-[24px] font-bold ff-recharge leading-[31px] text-white mb-2 lg:mb-4">
                     Participating in Governance{" "}
@@ -80,7 +80,7 @@ const My_Timeline = () => {
                   </p>
                 </div>
                 <div className="relative">
-                  <span className="rounded-full bg-white sm:h-[24px] sm:w-[24px] w-[20px] h-[20px] absolute top-[40%] left-[-10%] xxs:left-[-9%] xs_1:left-[-8%] xs_2:left-[-6%] md:left-[-10.5%]  lg:left-[-16.5%] xl:left-[-15%]"></span>
+                  <span className="rounded-full bg-white sm:h-[24px] sm:w-[24px] w-[20px] h-[20px] absolute top-[40%] left-[-11%] xxs:left-[-9%] xs_1:left-[-8%] xs_2:left-[-6%] md:left-[-10.5%]  lg:left-[-16.5%] xl:left-[-15%]"></span>
 
                   <p className="text-base sm:text-[24px] font-bold ff-recharge leading-[31px] text-white mb-2 lg:mb-4">
                     Peer-to-Peer Transactions{" "}
@@ -96,7 +96,7 @@ const My_Timeline = () => {
                   </p>
                 </div>
                 <div className="relative">
-                  <span className="rounded-full bg-white sm:h-[24px] sm:w-[24px] w-[20px] h-[20px] absolute top-[40%] left-[-10%] xxs:left-[-9%] xs_1:left-[-8%] xs_2:left-[-6%] md:left-[-10.5%]  lg:left-[-16.5%] xl:left-[-15%]"></span>
+                  <span className="rounded-full bg-white sm:h-[24px] sm:w-[24px] w-[20px] h-[20px] absolute top-[40%] left-[-11%] xxs:left-[-9%] xs_1:left-[-8%] xs_2:left-[-6%] md:left-[-10.5%]  lg:left-[-16.5%] xl:left-[-15%]"></span>
 
                   <p className="text-base sm:text-[24px] font-bold ff-recharge leading-[31px] text-white mb-2 lg:mb-4">
                     Token Staking and Rewards{" "}

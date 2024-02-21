@@ -6,8 +6,8 @@ const WhatsAi = () => {
     <div className="pt-[60px] md:pb-[50px] md:mt-[60px]">
       <div className=" container mx-auto max-w-[1246px] px-3 nter">
         <div className="relative whats_bg opacity-80  bg-no-repeat bg-center  rounded-[24px]">
-          <div className="  max-w-[1246px] px-3 border-[1px] border-white rounded-[24px] whats_bg  bg-no-repeat bg-center">
-            <div className="flex flex-row  items-center justify-center flex-wrap lg:flex-nowrap min-h-[810px]  -mx-3 xl:px-[95px]">
+          <div className="  max-w-[1246px] px-3 border-[1px] pb-5 md:pb-0 border-white rounded-[24px] whats_bg  bg-no-repeat bg-center">
+            <div className="flex md:flex-row flex-col-reverse  items-center justify-center flex-wrap lg:flex-nowrap min-h-[810px]  -mx-3 xl:px-[95px]">
               <div className=" lg:w-1/2 w-full px-3 ">
                 <p className=" text-[32px] sm:text-[40px] ff-recharge font-bold text-[#02CDCF] pt-5 lg:pt-0 leading-[50.5px]  mb-2">
                   What is NexAi?
@@ -19,7 +19,7 @@ const WhatsAi = () => {
                   schedules to transforming the way you experience smart living,
                   Nexai opens up a world of possibilities.
                 </p>
-                <p className="text-base font-pop font-normal  text-[#b4b4b4] leading-[25.5px] lg:max-w-[564px] mb-[40px]">
+                <p className="text-base font-pop font-normal  text-[#b4b4b4] leading-[25.5px] lg:max-w-[564px] mb-4 md:mb-[40px]">
                   Nexai's software can be installed on all your smart devices,
                   including smartphones, computers, smart TVs, and kitchen
                   appliances. It acts as a centralized control hub, allowing you
@@ -29,7 +29,7 @@ const WhatsAi = () => {
                   Nexai empowers you with effortless control.
                 </p>
 
-                <span>
+                <span className="pb-5 mb-5">
                   <Samebtn text="Learn More" />
                 </span>
               </div>

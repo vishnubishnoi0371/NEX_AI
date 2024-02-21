@@ -3,8 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ep_r from "../Assets/img.webp/ep_right.png";
+import ellp from "../Assets/img.webp/ellpse.webp";
 import ep_l from "../Assets/img.webp/ep_left.png";
-import { Scroll_1, Scroll_2 } from "../common_svg/icon";
+import { Card3, Card4, Scroll_1, Scroll_2 } from "../common_svg/icon";
 
 const HexaSlide = () => {
   const settings = {
@@ -86,7 +87,7 @@ const HexaSlide = () => {
   return (
     <div id="about" className="relative">
       <div className=" container mx-auto max-w-[1364px] px-3  sm:pt-[30px] mt-[30px]">
-        <div className="  max-w-[1340px] mx-auto px-3 border-[1px] border-white scroll_bg object-cover overflow-hidden rounded-[32px]  min-h[800px]  bg-no-repeat bg-center">
+        <div className="  max-w-[1340px] relative mx-auto px-3 border-[1px] border-white scroll_bg object-cover overflow-hidden rounded-[32px]  min-h[800px]  bg-no-repeat bg-center">
           <div className="flex flex-col items-center justify-center pb-[40px mb-[40px] pt-[40px]">
             <p className=" text-[32px] sm:text-[40px] font-bold ff-recharge leading-[51px] text-white text-center mb-2 sm:mb-4 sm:mt-[40px]">
               Unique features
@@ -96,7 +97,7 @@ const HexaSlide = () => {
               languages,
             </p>
           </div>
-          <div className="flex md:px-7 lg:px-[90px] flex-col sm:flex-row max-h-[532px] mt-0 sm:mt-[80px] items-start sm:justify-between scroll-hide  overflow-y-scroll  pt-[10px]">
+          <div className="flex  md:px-7 lg:px-[90px] flex-col sm:flex-row max-h-[532px] mt-0 sm:mt-[80px] items-start sm:justify-between scroll-hide  overflow-y-scroll  pt-[10px]">
             <div className="flex flex-col gap-4 sm:gap-[340px]">
               <div className="p-[30px_24px_44px_24px] w-full sm:max-w-[364px] max-h-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white ">
                 <span>
@@ -114,16 +115,15 @@ const HexaSlide = () => {
               </div>
               <div className="p-[30px_24px_44px_24px] w-full sm:max-w-[364px] max-h-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white ">
                 <span>
-                  <Scroll_2 />
+                  <Card4 />
                 </span>
                 <p className="text-xl font-bold ff-recharge leading-[32px] sm:max-w-[304px] lg:mt-[30px] lg:mb-[10px] text-black">
-                  Remote Access and File Management
+                  Autonomous and Natural Language Communication{" "}
                 </p>
                 <p className=" text-[14px] sm:text-base font-pop font-normal text-black opacity-[0.7] lg:leading-[26px] sm:max-w-[316px]">
-                  Imagine you're at work, and you realize you forgot to bring an
-                  important file stored on your desktop computer at home. No
-                  worries! Simply open the Nexai app on your phone, initiate a
-                  call with Nexai, and request access to your computer.{" "}
+                  Nexai goes beyond standard home assistants by taking proactive
+                  initiatives and engaging in natural language conversations. It
+                  communicates with you as if you're talking to a friend,
                 </p>
               </div>
             </div>
@@ -144,21 +144,26 @@ const HexaSlide = () => {
               </div>
               <div className="flex flex-col mb-4  p-[30px_24px_44px_24px]  w-full sm:max-w-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white ">
                 <span>
-                  <Scroll_1 />{" "}
+                  <Card3 />{" "}
                 </span>
                 <p className="text-xl font-bold ff-recharge leading-[32px] sm:max-w-[304px] lg:mt-[30px] mb-[10px] text-black">
-                  Remote Access and File Management
+                  Intelligent Contextual Awareness{" "}
                 </p>
                 <p className=" text-[14px] sm:text-base font-pop font-normal text-black opacity-[0.7] sm:leading-[26px] sm:max-w-[316px]">
-                  {" "}
-                  Imagine you're at work, and you realize you forgot to bring an
-                  important file stored on your desktop computer at home. No
-                  worries! Simply open the Nexai app on your phone, initiate a
-                  call with Nexai, and request access to your computer.{" "}
+                  Nexai utilizes the hardware sensors placed throughout your
+                  home to understand your location and deliver relevant
+                  information or actions. For instance, if you're in the bedroom
+                  and there's a smart TV present, Nexai will automatically
+                  display on the TV screen.
                 </p>
               </div>
             </div>
           </div>
+          <img
+            className="absolute left-[50%] translate-x-[-50%] translate-y-[-32%] mix-blend-color rounded-full top-[50%]"
+            src={ellp}
+            alt=""
+          />
         </div>
       </div>
       <div className="sm:pt-[50px] relative mt-[10px]">
@@ -263,7 +268,7 @@ const HexaSlide = () => {
         <span className="sm:w-[230px] sm:h-[230px] rounded-[500px]  blur-[100px] bg-[#02cdcf] opacity-60 z-10 left-[-8%] absolute top-[25%]"></span>
         <span className="sm:w-[230px] sm:h-[230px] rounded-[500px]  blur-[100px] bg-[#02cdcf] opacity-60 z-10 right-[0%] absolute top-[28%]"></span>
         <span className="sm:w-[230px] sm:h-[230px] rounded-[500px]  blur-[100px] bg-[#02cdcf] opacity-60 z-10 right-[0%] absolute bottom-[-20%]"></span>
-        <span className="sm:w-[430px] sm:h-[430px] rounded-[500px]  blur-[120px] bg-[#02cdcf] opacity-60 z-10 right-[34%] absolute top-[-54%]"></span>
+        {/* <span className="sm:w-[430px] sm:h-[430px] rounded-[500px]  blur-[120px] bg-[#02cdcf] opacity-60 z-10 right-[34%] absolute top-[-54%]"></span> */}
       </div>
     </div>
   );
