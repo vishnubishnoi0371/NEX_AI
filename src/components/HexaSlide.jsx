@@ -107,7 +107,7 @@ const HexaSlide = () => {
             <div className="flex flex-col gap-4 sm:gap-[340px]">
               <div
                 data-aos="zoom-in-up"
-                className="p-[30px_24px_44px_24px] w-full z-30 sm:max-w-[364px] max-h-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white "
+                className="p-[30px_24px_44px_24px] duration-500 hover:shadow-crd_sh_2 w-full z-30 sm:max-w-[364px] max-h-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white "
               >
                 <span>
                   <Scroll_1 />
@@ -122,10 +122,7 @@ const HexaSlide = () => {
                   call with Nexai, and request access to your computer.
                 </p>
               </div>
-              <div
-                data-aos="zoom-in-up"
-                className="p-[30px_24px_44px_24px] w-full z-30 sm:max-w-[364px] max-h-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white "
-              >
+              <div className="p-[30px_24px_44px_24px] duration-500 hover:shadow-crd_sh_2 w-full z-30 sm:max-w-[364px] max-h-[384px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white ">
                 <span>
                   <Card4 />
                 </span>
@@ -140,10 +137,7 @@ const HexaSlide = () => {
               </div>
             </div>
             <div className="flex flex-col gap-4 sm:gap-[340px]">
-              <div
-                data-aos="zoom-in-up"
-                className="flex flex-col   p-[30px_24px_44px_24px]  z-30 w-full sm:max-w-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white mt-5 sm:mt-[300px]"
-              >
+              <div className="flex flex-col   p-[30px_24px_44px_24px] duration-500 hover:shadow-crd_sh_2  z-30 w-full sm:max-w-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white mt-5 sm:mt-[300px]">
                 <span>
                   <Scroll_2 />
                 </span>
@@ -157,10 +151,7 @@ const HexaSlide = () => {
                   call with Nexai, and request access to your computer.{" "}
                 </p>
               </div>
-              <div
-                data-aos="zoom-in-up"
-                className="flex flex-col mb-4  p-[30px_24px_44px_24px]  z-30 w-full sm:max-w-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white "
-              >
+              <div className="flex flex-col mb-4  p-[30px_24px_44px_24px] !duration-500 hover:shadow-crd_sh_2  z-30 w-full sm:max-w-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white ">
                 <span>
                   <Card3 />{" "}
                 </span>
@@ -292,7 +283,6 @@ const HexaSlide = () => {
         <span className="sm:w-[230px] sm:h-[230px] rounded-[500px]  blur-[100px] bg-[#02cdcf] !opacity-60 z-10 left-[-8%] absolute top-[25%]"></span>
         <span className="sm:w-[230px] sm:h-[230px] rounded-[500px]  blur-[100px] bg-[#02cdcf] !opacity-60 z-10 right-[0%] absolute top-[28%]"></span>
         <span className="sm:w-[230px] sm:h-[230px] rounded-[500px]  blur-[100px] bg-[#02cdcf] !opacity-60 z-10 right-[0%] absolute bottom-[-20%]"></span>
-        {/* <span className="sm:w-[430px] sm:h-[430px] rounded-[500px]  blur-[120px] bg-[#02cdcf] !opacity-60 z-10 right-[34%] absolute top-[-54%]"></span> */}
       </div>
     </div>
   );

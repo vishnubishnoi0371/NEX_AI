@@ -27,6 +27,8 @@ module.exports = {
       },
       boxShadow: {
         crd_sh_1: "0px 4px 20px 0px rgba(2, 205, 207, 0.16);",
+        crd_sh_3: "0px 8px 25px 0px rgba(12, 205, 207, 0.36);",
+        crd_sh_2: "0px 4px 20px 0px rgba(2, 205, 207, 1);",
       },
 
       screens: {

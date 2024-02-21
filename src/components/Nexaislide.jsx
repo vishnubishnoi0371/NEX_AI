@@ -103,9 +103,6 @@ const Nexaislide = () => {
     arrows: false,
     slidesToShow: 4.2,
     slidesToScroll: 1,
-
-    // prevArrow: <CustomPrevArrow />,
-    // nextArrow: <CustomNextArrow />,
     responsive: [
       {
         breakpoint: 1102,
@@ -162,28 +159,28 @@ const Nexaislide = () => {
       </div>
       <Slider {...settings}>
         <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
-          <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
+          <div className="px-[43px] hover:shadow-crd_sh_3 duration-500 shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, Turn on light{" "}
             </p>
           </div>
         </div>
         <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
-          <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
+          <div className="px-[43px] hover:shadow-crd_sh_3 duration-500 shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, set alarm of 5:00 am{" "}
             </p>
           </div>
         </div>
         <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
-          <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
+          <div className="px-[43px] hover:shadow-crd_sh_3 duration-500 shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, measure this table{" "}
             </p>
           </div>
         </div>
         <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
-          <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
+          <div className="px-[43px] hover:shadow-crd_sh_3 duration-500 shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, Turn on music{" "}
             </p>
@@ -192,28 +189,28 @@ const Nexaislide = () => {
       </Slider>
       <Slider {...settings2}>
         <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
-          <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
+          <div className="px-[43px] shadow-crd_sh_1 hover:shadow-crd_sh_3 duration-500 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, measure this table{" "}
             </p>
           </div>
         </div>
         <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
-          <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
+          <div className="px-[43px] shadow-crd_sh_1 hover:shadow-crd_sh_3 duration-500 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, Turn on music{" "}
             </p>
           </div>
         </div>
         <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
-          <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
+          <div className="px-[43px] shadow-crd_sh_1 hover:shadow-crd_sh_3 duration-500 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, Turn on light{" "}
             </p>
           </div>
         </div>
         <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
-          <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
+          <div className="px-[43px] shadow-crd_sh_1 hover:shadow-crd_sh_3 duration-500 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, is the front door locked?{" "}
             </p>
@@ -222,28 +219,28 @@ const Nexaislide = () => {
       </Slider>
       <Slider {...settings3}>
         <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
-          <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
+          <div className="px-[43px] hover:shadow-crd_sh_3 duration-500 shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, Turn on TV{" "}
             </p>
           </div>
         </div>
         <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
-          <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
+          <div className="px-[43px] hover:shadow-crd_sh_3 duration-500 shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, Turn on music{" "}
             </p>
           </div>
         </div>
         <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
-          <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
+          <div className="px-[43px] hover:shadow-crd_sh_3 duration-500 shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, Turn of AC.{" "}
             </p>
           </div>
         </div>
         <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
-          <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
+          <div className="px-[43px] hover:shadow-crd_sh_3 duration-500 shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, Lock the front door{" "}
             </p>

@@ -6,7 +6,7 @@ const My_Timeline = () => {
   return (
     <div id="token" className="relative overflow-hidden">
       <div className=" container mx-auto max-w-[1264px] px-3 pt-[60px] md:mt-[60px]">
-        <p className="text-[32px] sm:text-[40px] leading-[normal] font-bold ff-recharge text-[#2dcdcf] text-center mb-4 md:mb-[47px]">
+        <p className="text-[32px] sm:text-[40px] leading-[normal] font-bold ff-recharge text-[#2dcdcf] text-center mb-10 md:mb-[47px]">
           NexAI Token & utility{" "}
         </p>
         <div className="flex flex-row  items-center justify-start flex-wrap mb-[-20px] sm:mb-0 md:pt-[40px]  -mx-3 ">
@@ -90,15 +90,11 @@ const My_Timeline = () => {
                   <span className="rounded-full bg-white sm:h-[24px] sm:w-[24px] w-[20px] h-[20px] absolute top-[40%] left-[-11%] xxs:left-[-9%] xs_1:left-[-8%] xs_2:left-[-6%] md:left-[-10.5%]  lg:left-[-16.5%] xl:left-[-15%]"></span>
 
                   <p
-                    data-aos="zoom-in-up"
                     className="text-base sm:text-[24px] font-bold ff-recharge leading-[31px] text-white mb-2 lg:mb-4"
                   >
                     Participating in Governance{" "}
                   </p>
-                  <p
-                    data-aos="zoom-in-up"
-                    className="text-[14px] sm:text-base font-normal font-pop sm:leading-[26px] text-white !opacity-[0.7] md:max-w-[536px] mb-6 lg:mb-[60px] "
-                  >
+                  <p className="text-[14px] sm:text-base font-normal font-pop sm:leading-[26px] text-white !opacity-[0.7] md:max-w-[536px] mb-6 lg:mb-[60px] ">
                     Nex AI token holders will play a vital role in the
                     governance of the Nexai ecosystem. Through voting
                     mechanisms, token holders will have a direct say in the
@@ -112,15 +108,11 @@ const My_Timeline = () => {
                   <span className="rounded-full bg-white sm:h-[24px] sm:w-[24px] w-[20px] h-[20px] absolute top-[40%] left-[-11%] xxs:left-[-9%] xs_1:left-[-8%] xs_2:left-[-6%] md:left-[-10.5%]  lg:left-[-16.5%] xl:left-[-15%]"></span>
 
                   <p
-                    data-aos="zoom-in-up"
                     className="text-base sm:text-[24px] font-bold ff-recharge leading-[31px] text-white mb-2 lg:mb-4"
                   >
                     Peer-to-Peer Transactions{" "}
                   </p>
-                  <p
-                    data-aos="zoom-in-up"
-                    className="text-[14px] sm:text-base font-normal font-pop sm:leading-[26px] text-white !opacity-[0.7] md:max-w-[536px] mb-6 lg:mb-[60px] "
-                  >
+                  <p className="text-[14px] sm:text-base font-normal font-pop sm:leading-[26px] text-white !opacity-[0.7] md:max-w-[536px] mb-6 lg:mb-[60px] ">
                     Nex AI tokens will enable seamless peer-to-peer transactions
                     within the Nexai community. Users will have the ability to
                     exchange tokens with others for various purposes, such as
@@ -133,16 +125,10 @@ const My_Timeline = () => {
                 <div className="relative">
                   <span className="rounded-full bg-white sm:h-[24px] sm:w-[24px] w-[20px] h-[20px] absolute top-[40%] left-[-11%] xxs:left-[-9%] xs_1:left-[-8%] xs_2:left-[-6%] md:left-[-10.5%]  lg:left-[-16.5%] xl:left-[-15%]"></span>
 
-                  <p
-                    data-aos="zoom-in-up"
-                    className="text-base sm:text-[24px] font-bold ff-recharge leading-[31px] text-white mb-2 lg:mb-4"
-                  >
+                  <p className="text-base sm:text-[24px] font-bold ff-recharge leading-[31px] text-white mb-2 lg:mb-4">
                     Token Staking and Rewards{" "}
                   </p>
-                  <p
-                    data-aos="zoom-in-up"
-                    className="text-[14px] sm:text-base font-normal font-pop sm:leading-[26px] text-white !opacity-[0.7] md:max-w-[536px] mb-6 lg:mb-[60px] "
-                  >
+                  <p className="text-[14px] sm:text-base font-normal font-pop sm:leading-[26px] text-white !opacity-[0.7] md:max-w-[536px] mb-6 lg:mb-[60px] ">
                     Nex AI tokens will support staking mechanisms, allowing
                     users to lock up their tokens for a specified period. By
                     staking their tokens, users will earn additional rewards,

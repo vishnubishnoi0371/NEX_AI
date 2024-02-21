@@ -19,7 +19,7 @@ const MyHeader = () => {
           <div className="container max-w-[1195px] mx-auto px-3">
             <div className=" flex  items-center md:justify-end">
               <div className="sm:w-[65%] w-full  flex justify-between items-center ">
-                <p className="block md:hidden text-right  font-bold text-[40px] flex-nowrap ff-recharge text-[#02CDCF]">
+                <p className="block md:hidden text-right  font-bold text-[40px] flex-nowrap ff-recharge cursor-pointer text-[#02CDCF]">
                   Nex<span className="text-white">Ai</span>
                 </p>
                 <ul
@@ -32,7 +32,7 @@ const MyHeader = () => {
                     <a
                       onClick={Movement}
                       href="#home"
-                      className=" font-normal text-base font-pop text-[#ffffff]  duration-300 relative after:absolute after:bg-[#fff] after:w-0 after:h-[3px] after:bottom-[-2px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%] leading-[23.50%] "
+                      className=" font-normal text-base font-pop hover:text-[#02cdcf]  text-[#ffffff]  duration-300 relative after:absolute after:bg-[#02cdcf] after:w-0 after:h-[3px] after:bottom-[-4px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%] leading-[23.50%] "
                     >
                       Home
                     </a>
@@ -41,7 +41,7 @@ const MyHeader = () => {
                     <a
                       onClick={Movement}
                       href="#market"
-                      className=" font-normal text-base font-pop text-[#ffffff]  inline leading-[23.50%] duration-300 relative after:absolute after:bg-[#fff] after:w-0 after:h-[3px] after:bottom-[-2px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300  hover:after:w-[100%] "
+                      className=" font-normal text-base font-pop hover:text-[#02cdcf]  text-[#ffffff]  inline leading-[23.50%] duration-300 relative after:absolute after:bg-[#02cdcf] after:w-0 after:h-[3px] after:bottom-[-4px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300  hover:after:w-[100%] "
                     >
                       Marketplace
                     </a>
@@ -50,7 +50,7 @@ const MyHeader = () => {
                     <a
                       onClick={Movement}
                       href="#about"
-                      className="  font-normal text-base font-pop text-[#ffffff]  inline leading-[23.50%] duration-300 relative after:absolute after:bg-[#fff] after:w-0 after:h-[3px] after:bottom-[-2px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300  hover:after:w-[100%] "
+                      className="  font-normal text-base font-pop hover:text-[#02cdcf]  text-[#ffffff]  inline leading-[23.50%] duration-300 relative after:absolute after:bg-[#02cdcf] after:w-0 after:h-[3px] after:bottom-[-4px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300  hover:after:w-[100%] "
                     >
                       About
                     </a>
@@ -59,7 +59,7 @@ const MyHeader = () => {
                     <a
                       onClick={Movement}
                       href="#chat"
-                      className="  font-normal text-base font-pop text-[#ffffff]  inline leading-[23.50%] duration-300 relative after:absolute after:bg-[#fff] after:w-0 after:h-[3px] after:bottom-[-2px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300  hover:after:w-[100%] "
+                      className="  font-normal text-base font-pop hover:text-[#02cdcf]  text-[#ffffff]  inline leading-[23.50%] duration-300 relative after:absolute after:bg-[#02cdcf] after:w-0 after:h-[3px] after:bottom-[-4px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300  hover:after:w-[100%] "
                     >
                       NextChat{" "}
                     </a>
@@ -68,7 +68,7 @@ const MyHeader = () => {
                     <a
                       onClick={Movement}
                       href="#token"
-                      className="  font-normal text-base font-pop text-[#ffffff]  inline leading-[23.50%] duration-300 relative after:absolute after:bg-[#fff] after:w-0 after:h-[3px] after:bottom-[-2px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300  hover:after:w-[100%]"
+                      className="  font-normal text-base font-pop hover:text-[#02cdcf]  text-[#ffffff]  inline leading-[23.50%] duration-300 relative after:absolute after:bg-[#02cdcf] after:w-0 after:h-[3px] after:bottom-[-4px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300  hover:after:w-[100%]"
                     >
                       Tokens{" "}
                     </a>
@@ -86,7 +86,6 @@ const MyHeader = () => {
                     </div>
                   </div>
                 </div>
-
                 <div
                   className=" relative  z-50  block lg:hidden  "
                   onClick={() => {
@@ -125,9 +124,8 @@ const MyHeader = () => {
           </div>
         </div>
       </div>
-      <span className="sm:w-[230px] w-[130px] h-[130px] sm:h-[230px] rounded-[500px]  blur-[120px] bg-[#02cdcf] !opacity-60 left-[-10%] absolute top-[8%]"></span>
+      <span className="sm:w-[230px] w-[130px] h-[130px] sm:h-[230px] rounded-[500px] blur-[120px] bg-[#02cdcf] !opacity-60 left-[-10%] absolute top-[8%]"></span>
     </div>
   );
 };
-
 export default MyHeader;
