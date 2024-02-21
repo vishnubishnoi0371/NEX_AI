@@ -99,7 +99,7 @@ const HexaSlide = () => {
           </div>
           <div className="flex  md:px-7 lg:px-[90px] flex-col sm:flex-row max-h-[532px] mt-0 sm:mt-[80px] items-start sm:justify-between scroll-hide  overflow-y-scroll  pt-[10px]">
             <div className="flex flex-col gap-4 sm:gap-[340px]">
-              <div className="p-[30px_24px_44px_24px] w-full sm:max-w-[364px] max-h-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white ">
+              <div className="p-[30px_24px_44px_24px] w-full z-30 sm:max-w-[364px] max-h-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white ">
                 <span>
                   <Scroll_1 />
                 </span>
@@ -113,7 +113,7 @@ const HexaSlide = () => {
                   call with Nexai, and request access to your computer.
                 </p>
               </div>
-              <div className="p-[30px_24px_44px_24px] w-full sm:max-w-[364px] max-h-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white ">
+              <div className="p-[30px_24px_44px_24px] w-full z-30 sm:max-w-[364px] max-h-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white ">
                 <span>
                   <Card4 />
                 </span>
@@ -128,7 +128,7 @@ const HexaSlide = () => {
               </div>
             </div>
             <div className="flex flex-col gap-4 sm:gap-[340px]">
-              <div className="flex flex-col   p-[30px_24px_44px_24px]  w-full sm:max-w-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white mt-5 sm:mt-[300px]">
+              <div className="flex flex-col   p-[30px_24px_44px_24px]  z-30 w-full sm:max-w-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white mt-5 sm:mt-[300px]">
                 <span>
                   <Scroll_2 />
                 </span>
@@ -142,7 +142,7 @@ const HexaSlide = () => {
                   call with Nexai, and request access to your computer.{" "}
                 </p>
               </div>
-              <div className="flex flex-col mb-4  p-[30px_24px_44px_24px]  w-full sm:max-w-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white ">
+              <div className="flex flex-col mb-4  p-[30px_24px_44px_24px]  z-30 w-full sm:max-w-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white ">
                 <span>
                   <Card3 />{" "}
                 </span>
@@ -160,7 +160,7 @@ const HexaSlide = () => {
             </div>
           </div>
           <img
-            className="absolute left-[50%] translate-x-[-50%] translate-y-[-32%] mix-blend-color rounded-full top-[50%]"
+            className="absolute left-[50%] z-10 translate-x-[-50%] translate-y-[-32%] mix-blend-color rounded-full top-[50%]"
             src={ellp}
             alt=""
           />
