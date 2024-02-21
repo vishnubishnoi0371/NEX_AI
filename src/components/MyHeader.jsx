@@ -13,9 +13,9 @@ const MyHeader = () => {
     setshow(false);
   };
   return (
-    <div className="pt-[10px] relative z-10 pb-[50px] ">
+    <div className="lg:pt-[10px] relative z-10 pb-[50px] ">
       <div className="overflow-hidden z-20 relative bg-hero min-h-[100vh] object-cover   bg-no-repeat bg-right md:bg-center ">
-        <nav className=" pt-4 md:pt-[40px]">
+        <nav className=" pt-4 lg:pt-[40px]">
           <div className="container max-w-[1195px] mx-auto px-3">
             <div className=" flex  items-center md:justify-end">
               <div className="sm:w-[65%] w-full  flex justify-between items-center ">
@@ -109,7 +109,7 @@ const MyHeader = () => {
         </nav>
         <div id="home" className="container max-w-[1194px] px-3">
           <div className="flex-col flex sm:ps-5 lg:ms-[50px]  lg:ps-[100px] ">
-            <p className="max-w-[577px] font-bold text-[40px] sm:text-[60px] mb-2 mt-5 sm:mt-[50px] pt-[50px] sm:leading-[75.6px] ff-recharge text-[#02CDCF]">
+            <p className="max-w-[577px] font-bold text-[35px] sm:text-[40px] md:text-[60px] mb-2 mt-[-14px] lg:mt-[50px] pt-[50px] sm:leading-[75.6px] ff-recharge text-[#02CDCF]">
               Nexai <span></span>
               <span className="font-normal text-[#ffffff] ff-neuo">
                 is an advanced AI-powered home assistant
@@ -119,13 +119,13 @@ const MyHeader = () => {
               Etiam viverra nec libero a. A id id tempus molestie sed. Fringilla
               odio.
             </p>
-            <div className="mt-3 sm:mt-14">
+            <div className="mt-3 lg:mt-14">
               <Samebtn text="Know More" />
             </div>
           </div>
         </div>
       </div>
-      <span className="sm:w-[230px] w-[130px] h-[130px] sm:h-[230px] rounded-[500px]  blur-[120px] bg-[#02cdcf] opacity-60 left-[-10%] absolute top-[8%]"></span>
+      <span className="sm:w-[230px] w-[130px] h-[130px] sm:h-[230px] rounded-[500px]  blur-[120px] bg-[#02cdcf] !opacity-60 left-[-10%] absolute top-[8%]"></span>
     </div>
   );
 };

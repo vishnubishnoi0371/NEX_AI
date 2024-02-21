@@ -45,7 +45,7 @@ const My_Footer = () => {
                   <li className="mb-1 md:mb-5 ">
                     <a
                       href="#"
-                      className="font-bold text-base ff-recharge hover:opacity-[1]  text-[#ffffff] opacity-[.7] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-bold text-base ff-recharge hover:!opacity-[1]  text-[#ffffff] !opacity-[.7] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Home
                     </a>
@@ -53,7 +53,7 @@ const My_Footer = () => {
                   <li className="mb-1 md:mb-5">
                     <a
                       href="#"
-                      className="font-bold text-base ff-recharge hover:opacity-[1]  text-[#ffffff] opacity-[.7] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-bold text-base ff-recharge hover:!opacity-[1]  text-[#ffffff] !opacity-[.7] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Features
                     </a>
@@ -61,7 +61,7 @@ const My_Footer = () => {
                   <li className="mb-1 md:mb-5">
                     <a
                       href="#"
-                      className="font-bold text-base ff-recharge hover:opacity-[1]  text-[#ffffff] opacity-[.7] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-bold text-base ff-recharge hover:!opacity-[1]  text-[#ffffff] !opacity-[.7] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Marketplace
                     </a>
@@ -69,7 +69,7 @@ const My_Footer = () => {
                   <li className="mb-1 md:mb-5">
                     <a
                       href="#"
-                      className="font-bold text-base ff-recharge hover:opacity-[1]  text-[#ffffff] opacity-[.7] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-bold text-base ff-recharge hover:!opacity-[1]  text-[#ffffff] !opacity-[.7] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Tokens
                     </a>
@@ -77,7 +77,7 @@ const My_Footer = () => {
                   <li className="mb-1 md:mb-5">
                     <a
                       href="#"
-                      className="font-bold text-base ff-recharge hover:opacity-[1]  text-[#ffffff] opacity-[.7] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-bold text-base ff-recharge hover:!opacity-[1]  text-[#ffffff] !opacity-[.7] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       NextChat
                     </a>
@@ -85,7 +85,7 @@ const My_Footer = () => {
                   <li className="mb-1 md:mb-5">
                     <a
                       href="#"
-                      className="font-bold text-base ff-recharge  hover:opacity-[1] text-[#ffffff] opacity-[.7] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-bold text-base ff-recharge  hover:!opacity-[1] text-[#ffffff] !opacity-[.7] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       About
                     </a>
@@ -100,7 +100,7 @@ const My_Footer = () => {
                   <li className="mb-1 md:mb-5">
                     <a
                       href="#"
-                      className="font-bold text-base ff-recharge  text-[#ffffff] opacity-[.7] hover:opacity-[1] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-bold text-base ff-recharge  text-[#ffffff] !opacity-[.7] hover:!opacity-[1] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Contact
                     </a>
@@ -108,7 +108,7 @@ const My_Footer = () => {
                   <li className="mb-1 md:mb-5">
                     <a
                       href="#"
-                      className="font-bold text-base ff-recharge  text-[#ffffff] opacity-[.7] hover:opacity-[1] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-bold text-base ff-recharge  text-[#ffffff] !opacity-[.7] hover:!opacity-[1] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Phone
                     </a>
@@ -116,7 +116,7 @@ const My_Footer = () => {
                   <li className="mb-1 md:mb-5">
                     <a
                       href="#"
-                      className="font-bold text-base ff-recharge  text-[#ffffff] opacity-[.7] hover:opacity-[1] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-bold text-base ff-recharge  text-[#ffffff] !opacity-[.7] hover:!opacity-[1] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Terms
                     </a>
@@ -124,7 +124,7 @@ const My_Footer = () => {
                   <li className="mb-1 md:mb-5">
                     <a
                       href="#"
-                      className="font-bold text-base ff-recharge  text-[#ffffff] opacity-[.7] hover:opacity-[1] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-bold text-base ff-recharge  text-[#ffffff] !opacity-[.7] hover:!opacity-[1] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Privacy
                     </a>
@@ -135,7 +135,7 @@ const My_Footer = () => {
           </div>
         </div>
         <hr className="max-w-full h-[2px] text-[#FCFCFC]"></hr>
-        <p className="text-base leading-[19px] ff-recharge py-5 text-[#ffffff] opacity-[0.7] font-bold text-center">
+        <p className="text-base leading-[19px] ff-recharge py-5 text-[#ffffff] !opacity-[0.7] font-bold text-center">
           @Copyright.nexai
         </p>
       </div>

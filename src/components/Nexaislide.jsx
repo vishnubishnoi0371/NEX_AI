@@ -144,10 +144,16 @@ const Nexaislide = () => {
   return (
     <div id="chat">
       <div className="flex items-center justify-center flex-col mt-[50px] sm:pt-[50px] mb-[40px] sm:pb-[50px]">
-        <p className="text-[32px] sm:text-[40px] leading-[normal] font-bold ff-recharge text-[#2dcdcf] text-center mb-4">
+        <p
+          data-aos="zoom-in-up"
+          className="text-[32px] sm:text-[40px] leading-[normal] font-bold ff-recharge text-[#2dcdcf] text-center mb-4"
+        >
           NexAi does all this. And more.
         </p>
-        <p className="max-w-[912px] text-[14px]  sm:text-base font-normal font-pop leading-[25.4px] text-center text-[#ffffff] opacity-[70%]">
+        <p
+          data-aos="zoom-in-up"
+          className="max-w-[912px] text-[14px]  sm:text-base font-normal font-pop leading-[25.4px] text-center text-[#ffffff] !opacity-[70%]"
+        >
           Nexai is an advanced home assistant that will revolutionize the way we
           interact with our smart devices at home. Powered by sophisticated
           artificial intelligence, it leverages blockchain technology to offer a
@@ -155,28 +161,28 @@ const Nexaislide = () => {
         </p>
       </div>
       <Slider {...settings}>
-        <div className="px-3 py-2 sm:py-5">
+        <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
           <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, Turn on light{" "}
             </p>
           </div>
         </div>
-        <div className="px-3 py-2 sm:py-5">
+        <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
           <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, set alarm of 5:00 am{" "}
             </p>
           </div>
         </div>
-        <div className="px-3 py-2 sm:py-5">
+        <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
           <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, measure this table{" "}
             </p>
           </div>
         </div>
-        <div className="px-3 py-2 sm:py-5">
+        <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
           <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, Turn on music{" "}
@@ -185,28 +191,28 @@ const Nexaislide = () => {
         </div>
       </Slider>
       <Slider {...settings2}>
-        <div className="px-3 py-2 sm:py-5">
+        <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
           <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, measure this table{" "}
             </p>
           </div>
         </div>
-        <div className="px-3 py-2 sm:py-5">
+        <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
           <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, Turn on music{" "}
             </p>
           </div>
         </div>
-        <div className="px-3 py-2 sm:py-5">
+        <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
           <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, Turn on light{" "}
             </p>
           </div>
         </div>
-        <div className="px-3 py-2 sm:py-5">
+        <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
           <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, is the front door locked?{" "}
@@ -215,28 +221,28 @@ const Nexaislide = () => {
         </div>
       </Slider>
       <Slider {...settings3}>
-        <div className="px-3 py-2 sm:py-5">
+        <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
           <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, Turn on TV{" "}
             </p>
           </div>
         </div>
-        <div className="px-3 py-2 sm:py-5">
+        <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
           <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, Turn on music{" "}
             </p>
           </div>
         </div>
-        <div className="px-3 py-2 sm:py-5">
+        <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
           <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, Turn of AC.{" "}
             </p>
           </div>
         </div>
-        <div className="px-3 py-2 sm:py-5">
+        <div data-aos="zoom-in-up" className="px-3 py-2 sm:py-5">
           <div className="px-[43px] shadow-crd_sh_1 h-[140px] sm:h-[220px] max-w-full flex items-center justify-center bg-[#090909] rounded-[16px] ">
             <p className="text-base sm:text-[24px] font-bold ff-recharge text-white text-center leading-[38px]">
               NexAi, Lock the front door{" "}
