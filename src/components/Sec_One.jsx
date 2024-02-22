@@ -4,7 +4,7 @@ import Samebtn from "./Samebtn";
 
 const Sec_One = () => {
   return (
-    <div className="md:pt-[50px] md:mt-[50px] relative sm:pb-[60px] md:mb-[40px] overflow-hidden">
+    <div className="lg:pt-[50px] md:mt-[50px] relative sm:pb-[60px] md:mb-[40px] overflow-hidden">
       <div className=" container mx-auto max-w-[1246px] px-3 ">
         <div className="flex md:flex-row flex-col-reverse items-center justify-center flex-wrap  -mx-3 ">
           <div className=" md:w-1/2 w-full px-3 pt-8 md:pt-0">

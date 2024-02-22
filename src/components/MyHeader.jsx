@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Close_line, Nav_line } from "../common_svg/icon";
 import Samebtn from "./Samebtn";
+import botm from "../Assets/img.webp/header-btm.png";
 
 const MyHeader = () => {
   const [show, setshow] = useState(false);
@@ -106,23 +107,27 @@ const MyHeader = () => {
             </div>
           </div>
         </nav>
-        <div id="home" className="container max-w-[1194px] px-3">
-          <div className="flex-col flex sm:ps-5 lg:ms-[50px]  lg:ps-[100px] ">
-            <p className="max-w-[577px] font-bold text-[35px] sm:text-[40px] md:text-[60px] mb-2 mt-[-14px] lg:mt-[50px] pt-[50px] sm:leading-[75.6px] ff-recharge text-[#02CDCF]">
-              Nexai <span></span>
-              <span className="font-normal text-[#ffffff] ff-neuo">
-                is an advanced AI-powered home assistant
-              </span>
-            </p>
-            <p className="font-pop text-base font-normal sm:mt-2 leading-[25.6px] text-[#b3b6b8]">
-              Etiam viverra nec libero a. A id id tempus molestie sed. Fringilla
-              odio.
-            </p>
-            <div className="mt-3 lg:mt-14">
-              <Samebtn text="Know More" />
-            </div>
+        <div
+          id="home"
+          className=" max-w-[1164px] mx-auto px-3 xl:py-0 min-h-[80vh] md:block  flex justify-center flex-col md:pt-8 lg:!pt-[104px] "
+        >
+          <h1 className=" text-[35px] xxs:text-[45px] xxl:pt-[70px] sm:text-[56px] md:text-[60px] leading-[40px] sm:leading-[75.6px] text-[#FFF] max-w-[577px] ff-recharge font-normal">
+            <span className=" font-bold Recharge text-[#02CDCF]">Nexai</span> is
+            an advanced AI-powered home assistant
+          </h1>
+          <p className=" font-pop font-normal leading-[normal] sm:leading-[25.6px]  text-[14px] sm:text-base text-[#FFFFFF] !opacity-70 mt-[6px] sm:mt-[16px]">
+            Etiam viverra nec libero a. A id id tempus molestie sed. Fringilla
+            odio.
+          </p>
+          <div className=" pt-[20px] 576:pt-[51px]">
+            <Samebtn text="Know More" />
           </div>
         </div>
+        <img
+          className="absolute bottom-0 md:bottom-[-3%] lg:bottom-0 mx-auto w-full"
+          src={botm}
+          alt="shadow"
+        />
       </div>
       <span className="sm:w-[230px] w-[130px] h-[130px] sm:h-[230px] rounded-[500px] blur-[120px] bg-[#02cdcf] !opacity-60 left-[-10%] absolute top-[8%]"></span>
     </div>

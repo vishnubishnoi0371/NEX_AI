@@ -38,6 +38,7 @@ module.exports = {
         xxs: "420px",
         sm_2: "650px",
         lg_2: "850px",
+        xxl: "1444px",
         910: "850px",
       },
       animation: {

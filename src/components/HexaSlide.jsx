@@ -11,9 +11,10 @@ const HexaSlide = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 3000,
+    pauseOnHover: true,
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 0,
     arrows: false,
     slidesToShow: 3.2,
     slidesToScroll: 1,
@@ -104,7 +105,7 @@ const HexaSlide = () => {
             </p>
           </div>
           <div className="flex  md:px-7 lg:px-[90px] flex-col sm:flex-row max-h-[532px] mt-0 sm:mt-[80px] items-start sm:justify-between scroll-hide  overflow-y-scroll  pt-[10px]">
-            <div className="flex flex-col gap-4 sm:gap-[340px]">
+            <div className="flex flex-col gap-4 sm:gap-[170px]">
               <div
                 data-aos="zoom-in-up"
                 className="p-[30px_24px_44px_24px] duration-500 hover:shadow-crd_sh_2 w-full z-30 sm:max-w-[364px] max-h-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white "
@@ -136,7 +137,7 @@ const HexaSlide = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col gap-4 sm:gap-[340px]">
+            <div className="flex flex-col gap-4 sm:gap-[170px]">
               <div className="flex flex-col   p-[30px_24px_44px_24px] duration-500 hover:shadow-crd_sh_2  z-30 w-full sm:max-w-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white mt-5 sm:mt-[300px]">
                 <span>
                   <Scroll_2 />
