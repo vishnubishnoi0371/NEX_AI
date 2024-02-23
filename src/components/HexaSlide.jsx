@@ -88,7 +88,7 @@ const HexaSlide = () => {
   return (
     <div id="about" className="relative">
       <div className=" container mx-auto max-w-[1364px] px-3  sm:pt-[30px] mt-[30px]">
-        <div className="  max-w-[1340px] relative mx-auto px-3 border-[1px] border-white scroll_bg object-cover overflow-hidden rounded-[32px]  min-h[800px]  bg-no-repeat bg-center">
+        <div className="  max-w-[1340px] relative mx-auto px-3 border-[1px] border-white scroll_bg z-1 object-cover overflow-hidden  rounded-[32px]  min-h[800px]  bg-no-repeat bg-center">
           <div className="flex flex-col items-center justify-center pb-[40px mb-[40px] pt-[40px]">
             <p
               data-aos="zoom-in-up"
@@ -104,8 +104,8 @@ const HexaSlide = () => {
               languages,
             </p>
           </div>
-          <div className="flex  md:px-7 lg:px-[90px] flex-col sm:flex-row max-h-[532px] mt-0 sm:mt-[80px] items-start sm:justify-between scroll-hide  overflow-y-scroll  pt-[10px]">
-            <div className="flex flex-col gap-4 sm:gap-[170px]">
+          <div className="flex  md:px-7 lg:px-[90px] flex-col sm:flex-row max-h-[532px] mt-0 sm:mt-[80px] items-start sm:justify-between scroll-hide  overflow-y-scroll relative z-[3]  pt-[10px]">
+            <div className="flex flex-col  gap-4 sm:gap-[170px]">
               <div
                 data-aos="zoom-in-up"
                 className="p-[30px_24px_44px_24px] duration-500 hover:shadow-crd_sh_2 w-full z-30 sm:max-w-[364px] max-h-[364px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white "
@@ -123,7 +123,7 @@ const HexaSlide = () => {
                   call with Nexai, and request access to your computer.
                 </p>
               </div>
-              <div className="p-[30px_24px_44px_24px] duration-500 hover:shadow-crd_sh_2 w-full z-30 sm:max-w-[364px] max-h-[384px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white ">
+              <div className="p-[30px_24px_44px_24px] duration-500 hover:shadow-crd_sh_2 w-full z-50 sm:max-w-[364px] max-h-[384px] border-[1px] border-[#fcfcfc66]  rounded-[16px] bg-white ">
                 <span>
                   <Card4 />
                 </span>
@@ -170,7 +170,7 @@ const HexaSlide = () => {
             </div>
           </div>
           <img
-            className="absolute left-[50%] z-10 translate-x-[-50%] translate-y-[-32%] mix-blend-color rounded-full top-[50%]"
+            className="absolute left-[50%]  z-[1] translate-x-[-50%] translate-y-[-32%] mix-blend-color rounded-full top-[50%]"
             src={ellp}
             alt="ellp"
           />

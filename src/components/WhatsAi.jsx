@@ -4,10 +4,10 @@ import Samebtn from "./Samebtn";
 const WhatsAi = () => {
   return (
     <div className="pt-[60px] md:pb-[50px] md:mt-[60px]">
-      <div className=" container mx-auto max-w-[1246px] px-3 nter">
+      <div className=" container mx-auto max-w-[1340px] px-3 nter">
         <div className="relative whats_bg !opacity-80  bg-no-repeat bg-center  rounded-[24px]">
-          <div className="  max-w-[1246px] px-3 border-[1px] pb-5 md:pb-0 border-white rounded-[24px] whats_bg  bg-no-repeat bg-center">
-            <div className="flex md:flex-row flex-col-reverse  items-center justify-center flex-wrap lg:flex-nowrap min-h-[810px]  -mx-3 xl:px-[95px]">
+          <div className="  max-w-[1346px] px-3 border-[1px] pb-5 md:pb-0 border-white rounded-[24px] whats_bg  bg-no-repeat bg-center">
+            <div className="flex md:flex-row flex-col-reverse  items-center justify-center flex-wrap lg:flex-nowrap min-h-[810px]  -mx-3 xl:px-[45px]">
               <div className=" lg:w-1/2 w-full px-3 ">
                 <p
                   data-aos="zoom-in-up"
@@ -38,7 +38,7 @@ const WhatsAi = () => {
                   Nexai empowers you with effortless control.
                 </p>
 
-                <span data-aos="zoom-in-up" className="pb-5 mb-5">
+                <span data-aos="zoom-in-up" className="pb-5 z-30 mb-5">
                   <Samebtn text="Learn More" />
                 </span>
               </div>
@@ -52,7 +52,7 @@ const WhatsAi = () => {
               </div>
             </div>
           </div>
-          <span className="sm:w-[230px] sm:h-[230px] rounded-[500px]  blur-[100px] bg-[#02cdcf] !opacity-60 z-10 left-[0%] absolute bottom-[0%]"></span>
+          <span className="sm:w-[230px] sm:h-[230px] rounded-[500px] z-10  blur-[100px] bg-[#02cdcf] !opacity-60 z-10 left-[0%] absolute bottom-[0%]"></span>
           <span className="sm:w-[230px] sm:h-[230px] rounded-[500px]  blur-[100px] bg-[#02cdcf] !opacity-60 z-10 right-[15%] absolute bottom-[20%]"></span>
         </div>
       </div>

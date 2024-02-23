@@ -14,9 +14,9 @@ const MyHeader = () => {
     setshow(false);
   };
   return (
-    <div className="lg:pt-[10px] relative z-10 pb-[50px] ">
-      <div className="overflow-hidden z-20 relative bg-hero min-h-[100vh] object-cover   bg-no-repeat bg-right md:bg-center ">
-        <nav className=" pt-4 lg:pt-[40px]">
+    <div className="lg:pt-[10px] relative z-10 sm:pb-[50px] ">
+      <div className="overflow-hidden z-20 relative bg-hero min-h-[100vh] object-cover   bg-no-repeat sm:bg-center ">
+        <nav className=" pt-4 lg:pt-[40px] ">
           <div className="container max-w-[1195px] mx-auto px-3">
             <div className=" flex  items-center md:justify-end">
               <div className="sm:w-[65%] w-full  flex justify-between items-center ">
@@ -62,7 +62,7 @@ const MyHeader = () => {
                       href="#chat"
                       className="  font-normal text-base font-pop hover:text-[#02cdcf]  text-[#ffffff]  inline leading-[23.50%] duration-300 relative after:absolute after:bg-[#02cdcf] after:w-0 after:h-[3px] after:bottom-[-4px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300  hover:after:w-[100%] "
                     >
-                      NextChat{" "}
+                      NextChat
                     </a>
                   </li>
                   <li>
@@ -71,7 +71,7 @@ const MyHeader = () => {
                       href="#token"
                       className="  font-normal text-base font-pop hover:text-[#02cdcf]  text-[#ffffff]  inline leading-[23.50%] duration-300 relative after:absolute after:bg-[#02cdcf] after:w-0 after:h-[3px] after:bottom-[-4px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300  hover:after:w-[100%]"
                     >
-                      Tokens{" "}
+                      Tokens
                     </a>
                   </li>
                   <div className=" flex  items-center  gap-2">
@@ -109,9 +109,9 @@ const MyHeader = () => {
         </nav>
         <div
           id="home"
-          className=" max-w-[1164px] mx-auto px-3 xl:py-0 min-h-[80vh] md:block  flex justify-center flex-col md:pt-8 lg:!pt-[104px] "
+          className=" max-w-[1164px] mx-auto px-3  xl:py-0 min-h-[78vh] md:block md:ps-14  lg:ps-[95px] xl:ps-0 flex justify-center flex-col md:pt-[95px] lg:!pt-[104px] xxl:pt-0 xxl:mt-[-90px] "
         >
-          <h1 className=" text-[35px] xxs:text-[45px] xxl:pt-[70px] sm:text-[56px] md:text-[60px] leading-[40px] sm:leading-[75.6px] text-[#FFF] max-w-[577px] ff-recharge font-normal">
+          <h1 className=" text-[35px] xxs:text-[45px] xxl:pt-[90px] sm:text-[56px] md:text-[60px] leading-[40px] sm:leading-[75.6px] text-[#FFF] max-w-[577px] ff-recharge font-normal">
             <span className=" font-bold Recharge text-[#02CDCF]">Nexai</span> is
             an advanced AI-powered home assistant
           </h1>
@@ -119,12 +119,12 @@ const MyHeader = () => {
             Etiam viverra nec libero a. A id id tempus molestie sed. Fringilla
             odio.
           </p>
-          <div className=" pt-[20px] 576:pt-[51px]">
+          <div className=" pt-[20px] sm:pt-[51px] ">
             <Samebtn text="Know More" />
           </div>
         </div>
         <img
-          className="absolute bottom-0 md:bottom-[-3%] lg:bottom-0 mx-auto w-full"
+          className="absolute  bottom-[0%] md:bottom-[-3%] lg:bottom-0 mx-auto w-full"
           src={botm}
           alt="shadow"
         />

@@ -11,7 +11,7 @@ function Preload() {
         id="Preloader"
         className="h-screen bg-[#00141B] flex flex-col gap-4 justify-center items-center fixed top-0 left-0 w-full z-50 "
       >
-        <div className="flex gap-6 items-center">
+        <div className="flex gap-3 md:gap-6 items-center">
           <span>
             {" "}
             <svg

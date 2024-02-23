@@ -6,9 +6,10 @@ body {
   background: black !important;
 }
 .bg-hero {
-  background-image: url("../src/Assets/img.webp/hero_bg.webp");
+  background-image: url("../src/Assets/img.webp/headergif.gif") !important;
   background-size: cover !important;
 }
+
 .whats_bg {
   background-image: url("../src/Assets/What-bggg.gif");
   background-size: cover !important;
@@ -29,6 +30,16 @@ body {
 .scroll-hide::-webkit-scrollbar {
   display: none;
 }
+@media (min-width: 576px) {
+  /* .bg-hero-s {
+    display: none ;
+  } */
+  .bg-hero {
+    background-image: url("../src/Assets/img.webp/hero_bg.webp") !important;
+    background-size: cover !important;
+  }
+}
+
 @media (min-width: 768px) {
   .bg-hero {
     background-size: 100% 100% !important;
