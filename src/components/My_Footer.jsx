@@ -47,7 +47,7 @@ const My_Footer = () => {
                 <ul className="ps-0">
                   <li className="mb-1 md:mb-5 ">
                     <a
-                      href="#"
+                      href="#home"
                       className="font-bold text-base ff-recharge hover:!opacity-[1]  text-[#ffffff] !opacity-[.7] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Home
@@ -55,7 +55,7 @@ const My_Footer = () => {
                   </li>
                   <li className="mb-1 md:mb-5">
                     <a
-                      href="#"
+                      href="#about"
                       className="font-bold text-base ff-recharge hover:!opacity-[1]  text-[#ffffff] !opacity-[.7] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Features
@@ -63,7 +63,7 @@ const My_Footer = () => {
                   </li>
                   <li className="mb-1 md:mb-5">
                     <a
-                      href="#"
+                      href="#chat"
                       className="font-bold text-base ff-recharge hover:!opacity-[1]  text-[#ffffff] !opacity-[.7] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Marketplace
@@ -71,7 +71,7 @@ const My_Footer = () => {
                   </li>
                   <li className="mb-1 md:mb-5">
                     <a
-                      href="#"
+                      href="#market"
                       className="font-bold text-base ff-recharge hover:!opacity-[1]  text-[#ffffff] !opacity-[.7] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Tokens
@@ -79,7 +79,7 @@ const My_Footer = () => {
                   </li>
                   <li className="mb-1 md:mb-5">
                     <a
-                      href="#"
+                      href="#about"
                       className="font-bold text-base ff-recharge hover:!opacity-[1]  text-[#ffffff] !opacity-[.7] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       NextChat
@@ -87,7 +87,7 @@ const My_Footer = () => {
                   </li>
                   <li className="mb-1 md:mb-5">
                     <a
-                      href="#"
+                      href="#chat"
                       className="font-bold text-base ff-recharge  hover:!opacity-[1] text-[#ffffff] !opacity-[.7] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       About
@@ -102,7 +102,7 @@ const My_Footer = () => {
                 <ul className="ps-0">
                   <li className="mb-1 md:mb-5">
                     <a
-                      href="#"
+                      href="#home"
                       className="font-bold text-base ff-recharge  text-[#ffffff] !opacity-[.7] hover:!opacity-[1] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Contact
@@ -110,7 +110,7 @@ const My_Footer = () => {
                   </li>
                   <li className="mb-1 md:mb-5">
                     <a
-                      href="#"
+                      href="#market"
                       className="font-bold text-base ff-recharge  text-[#ffffff] !opacity-[.7] hover:!opacity-[1] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Phone
@@ -118,7 +118,7 @@ const My_Footer = () => {
                   </li>
                   <li className="mb-1 md:mb-5">
                     <a
-                      href="#"
+                      href="#chat"
                       className="font-bold text-base ff-recharge  text-[#ffffff] !opacity-[.7] hover:!opacity-[1] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Terms
@@ -126,7 +126,7 @@ const My_Footer = () => {
                   </li>
                   <li className="mb-1 md:mb-5">
                     <a
-                      href="#"
+                      href="#token"
                       className="font-bold text-base ff-recharge  text-[#ffffff] !opacity-[.7] hover:!opacity-[1] relative not-italic leading-[19.2px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Privacy
